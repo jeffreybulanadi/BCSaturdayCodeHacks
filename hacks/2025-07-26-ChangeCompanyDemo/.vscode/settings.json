@@ -1,0 +1,13 @@
+{
+    "al.defaultLaunchConfigurationName": "Microsoft cloud sandbox",
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}",
+        "${PerTenantExtensionCop}"
+    ],
+    "CRS.ObjectNamePrefix": "JB ",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectType>.al",
+    "CRS.RemovePrefixFromFilename": true
+}

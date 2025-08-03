@@ -22,6 +22,7 @@ This repository is a weekly celebration of:
 
 ### 🏗️ Architecture Patterns
 - Cross-company data operations
+- Environment-aware programming
 - Event-driven programming
 - Modular design principles
 - Performance optimization techniques
@@ -44,6 +45,7 @@ This repository is a weekly celebration of:
 BCSaturdayCodeHacks/
 ├── 📁 hacks/                    # Individual hack folders
 │   ├── 📁 2025-07-26-ChangeCompanyDemo/    # Cross-company G/L Account sync
+│   ├── 📁 2025-08-02-EnvironmentVariables/ # Environment-aware programming
 │   └── 📁 [upcoming-hacks]/               # More weekly demos
 ├── 📁 docs/                     # Comprehensive guides & tutorials
 ├── 📁 assets/                   # Screenshots, diagrams, visuals
@@ -54,7 +56,18 @@ BCSaturdayCodeHacks/
 
 ## 🗓️ Featured Hacks
 
-### Latest: [AL ChangeCompany Demo](hacks/2025-07-26-ChangeCompanyDemo/) **(July 26, 2025)**
+### Latest: [AL Environment Variables Demo](hacks/2025-08-02-EnvironmentVariables/) **(August 2, 2025)**
+Demonstrates environment-aware programming in Business Central, featuring:
+- ✅ Environment information retrieval (tenant, domain, deployment type)
+- ✅ Safety patterns for sandbox-only operations
+- ✅ Event-driven architecture with page subscribers
+- ✅ Automatic environment detection and display
+
+> **Tech Stack:** AL Language, Business Central 26.0+, VS Code
+> 
+> **Key Concepts:** Environment Information codeunit, Azure AD Tenant codeunit, Event subscribers, Environment safety patterns
+
+### Previous: [AL ChangeCompany Demo](hacks/2025-07-26-ChangeCompanyDemo/) **(July 26, 2025)**
 Demonstrates cross-company data operations in Business Central, featuring:
 - ✅ G/L Account synchronization across companies
 - ✅ Interactive company selection dialog
@@ -82,7 +95,7 @@ Demonstrates cross-company data operations in Business Central, featuring:
 
 2. **Explore a hack**
    ```bash
-   cd hacks/2025-07-26-ChangeCompanyDemo
+   cd hacks/2025-08-02-EnvironmentVariables
    code .  # Opens in VS Code
    ```
 
@@ -105,6 +118,7 @@ Demonstrates cross-company data operations in Business Central, featuring:
 
 ### Intermediate
 - Explore cross-company operations
+- Master environment-aware programming
 - Master event-driven programming
 - Implement custom business logic
 
@@ -131,7 +145,7 @@ Demonstrates cross-company data operations in Business Central, featuring:
 ## 📈 Project Statistics
 
 - **🗓️ Started:** July 2025
-- **📦 Total Hacks:** 1 (and growing every Saturday!)
+- **📦 Total Hacks:** 2 (and growing every Saturday!)
 - **🎯 Focus Areas:** AL Development, Business Central Extensions
 - **👥 Target Audience:** Developers, Consultants, Solution Architects
 

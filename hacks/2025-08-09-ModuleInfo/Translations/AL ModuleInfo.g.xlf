@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="AL ModuleInfo">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2247816424 - Field 1004750025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Updated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table JB Lorem Ipsum Setup - Field Last Updated - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2247816424 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table JB Lorem Ipsum Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2247816424 - Field 856236780 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registered</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table JB Lorem Ipsum Setup - Field Registered - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 542572112 - Method 3907522243 - NamedType 2654142762" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Id: %1\Name: %2\Publisher: %3\Dependencies: %4</source>
+          <note from="Developer" annotates="general" priority="2">%1 - App Id, %2 - App Name, %3 - App Publisher, %4 - App Dependencies</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JB ModuleInfo Mgt. - Method GetAppInfo - NamedType AppInfoMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 542572112 - Method 4159924290 - NamedType 659220142" size-unit="char" translate="yes" xml:space="preserve">
+          <source>dojo@learnbeyondbc.com</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JB ModuleInfo Mgt. - Method UpdateSubscriptionStatus - NamedType DoJoLearnTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 542572112 - Method 4159924290 - NamedType 2152724990" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You are now registered to use the %1.\\to activate, please reach out to %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 - App name, %2 - Contact Info for activation</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JB ModuleInfo Mgt. - Method UpdateSubscriptionStatus - NamedType RegisteredSuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2247816424 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lorem Ipsum Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page JB Lorem Ipsum Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2247816424 - Control 1004750025 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Last Updated field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page JB Lorem Ipsum Setup - Control Last Updated - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2247816424 - Control 856236780 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Registered field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page JB Lorem Ipsum Setup - Control Registered - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2247816424 - Action 3789158609 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get the app information.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page JB Lorem Ipsum Setup - Action GetOurNotSoBoringAppInfo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2247816424 - Action 3789158609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get App Info</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page JB Lorem Ipsum Setup - Action GetOurNotSoBoringAppInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2247816424 - Action 4149417275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register the Lorem Ipsum app.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page JB Lorem Ipsum Setup - Action Register - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2247816424 - Action 4149417275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page JB Lorem Ipsum Setup - Action Register - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1209650539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AL ModuleInfo Permissions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet JB AL ModuleInfo - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

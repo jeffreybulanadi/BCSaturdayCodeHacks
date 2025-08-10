@@ -1,0 +1,45 @@
+{
+  "id": "d24a138f-1e1e-4427-bbf2-a5d94458a998",
+  "name": "AL ModuleInfo",
+  "publisher": "Jeffrey Bulanadi",
+  "version": "26.1.0.250809",
+  "brief": "In AL development, ModuleInfo is a powerful data type that allows your extension to introspect—accessing metadata about itself.",
+  "description": "So how do you actually know your apps identity? Lets say you are integrating with another system and need to check whether your extension is installed, published, or not. Thats where this powerful AL data type comes in that I will about to introduce.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "https://learnbeyondbc.com",
+  "url": "https://learnbeyondbc.com",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "2156302a-872f-4568-be0b-60968696f0d5",
+      "name": "AI Test Toolkit",
+      "publisher": "Microsoft",
+      "version": "26.0.0.0"
+    },
+    {
+      "id": "e1d97edc-c239-46b4-8d84-6368bdf67c8b",
+      "name": "E-Document Core",
+      "publisher": "Microsoft",
+      "version": "26.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 50104,
+      "to": 50105
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "15.0",
+  "features": [
+    "NoImplicitWith", "TranslationFile"
+  ]
+}

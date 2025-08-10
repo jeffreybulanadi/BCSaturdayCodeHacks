@@ -44,19 +44,33 @@ This repository is a weekly celebration of:
 ```bash
 BCSaturdayCodeHacks/
 ├── 📁 hacks/                    # Individual hack folders
-│   ├── 📁 2025-07-26-ChangeCompanyDemo/    # Cross-company G/L Account sync
-│   ├── 📁 2025-08-02-EnvironmentVariables/ # Environment-aware programming
-│   └── 📁 [upcoming-hacks]/               # More weekly demos
+│   ├── 📁 2025-07-26-ChangeCompanyDemo/      # Cross-company G/L Account sync
+│   ├── 📁 2025-08-02-EnvironmentVariables/   # Environment-aware programming
+│   ├── 📁 2025-08-09-ModuleInfo/             # Module information management
+│   └── 📁 [upcoming-hacks]/                  # More weekly demos
 ├── 📁 docs/                     # Comprehensive guides & tutorials
 ├── 📁 assets/                   # Screenshots, diagrams, visuals
 ├── 📁 .github/                  # Templates for issues & contributions
 ├── 📄 LICENSE                   # MIT License
-└── 📄 README.md                # This file
+└── 📄 README.md                 # This file
 ```
 
 ## 🗓️ Featured Hacks
 
-### Latest: [AL Environment Variables Demo](hacks/2025-08-02-EnvironmentVariables/) **(August 2, 2025)**
+Explore the latest and greatest AL hacks, updated every Saturday! Each demo is designed to teach a practical concept for Business Central developers.
+
+### 🆕 Latest: [AL Module Info Demo](hacks/2025-08-09-ModuleInfo/) **(August 9, 2025)**
+Demonstrates module information management in Business Central, featuring:
+- ✅ Display and manage module metadata
+- ✅ Custom setup page and table for module info
+- ✅ Permission set for module administration
+- ✅ Screenshots and documentation for easy onboarding
+
+> **Tech Stack:** AL Language, Business Central 26.0+, VS Code
+> 
+> **Key Concepts:** Custom table/page, codeunit for module info, permission sets, extensibility
+
+### Previous: [AL Environment Variables Demo](hacks/2025-08-02-EnvironmentVariables/) **(August 2, 2025)**
 Demonstrates environment-aware programming in Business Central, featuring:
 - ✅ Environment information retrieval (tenant, domain, deployment type)
 - ✅ Safety patterns for sandbox-only operations
@@ -67,7 +81,7 @@ Demonstrates environment-aware programming in Business Central, featuring:
 > 
 > **Key Concepts:** Environment Information codeunit, Azure AD Tenant codeunit, Event subscribers, Environment safety patterns
 
-### Previous: [AL ChangeCompany Demo](hacks/2025-07-26-ChangeCompanyDemo/) **(July 26, 2025)**
+### Earlier: [AL ChangeCompany Demo](hacks/2025-07-26-ChangeCompanyDemo/) **(July 26, 2025)**
 Demonstrates cross-company data operations in Business Central, featuring:
 - ✅ G/L Account synchronization across companies
 - ✅ Interactive company selection dialog
@@ -78,11 +92,12 @@ Demonstrates cross-company data operations in Business Central, featuring:
 > 
 > **Key Concepts:** ChangeCompany method, Record.TransferFields(), Cross-company operations
 
-### Coming Soon 🔮
-- **API Integration Patterns** - RESTful web service consumption
-- **Performance Optimization** - Query efficiency and data handling
-- **Custom Control Add-ins** - JavaScript integration with AL
-- **Automated Testing** - Unit testing strategies for AL
+### 🔮 Coming Soon
+Stay tuned for upcoming hacks:
+- **API Integration Patterns** – RESTful web service consumption
+- **Performance Optimization** – Query efficiency and data handling
+- **Custom Control Add-ins** – JavaScript integration with AL
+- **Automated Testing** – Unit testing strategies for AL
 
 ## 🚀 Quick Start
 
@@ -104,10 +119,10 @@ Demonstrates cross-company data operations in Business Central, featuring:
 ### For Learners
 1. Browse the `hacks/` folder for topics that interest you
 2. Each hack includes a comprehensive README with:
-   - 📋 Overview and use cases
-   - 🛠️ Technical implementation details
-   - 📦 Installation instructions
-   - 💡 Learning outcomes
+   - Overview and use cases
+   - Technical implementation details
+   - Installation instructions
+   - Learning outcomes
 
 ## 🎓 Learning Path
 
@@ -130,31 +145,31 @@ Demonstrates cross-company data operations in Business Central, featuring:
 ## 🤝 Community & Contribution
 
 ### How to Contribute
-1. **🍴 Fork** the repository
-2. **🌟 Create** a feature branch (`git checkout -b feature/amazing-hack`)
-3. **✍️ Commit** your changes (`git commit -m 'Add amazing Saturday hack'`)
-4. **📤 Push** to the branch (`git push origin feature/amazing-hack`)
-5. **🔄 Open** a Pull Request
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-hack`)
+3. **Commit** your changes (`git commit -m 'Add amazing Saturday hack'`)
+4. **Push** to the branch (`git push origin feature/amazing-hack`)
+5. **Open** a Pull Request
 
 ### Community Guidelines
-- 📝 **Quality over Quantity** - Each hack should teach something valuable
-- 🧹 **Clean Code** - Follow AL best practices and naming conventions
-- 📚 **Documentation** - Include comprehensive READMEs and code comments
-- 🤝 **Respectful** - Maintain a welcoming environment for all skill levels
+- **Quality over Quantity** - Each hack should teach something valuable
+- **Clean Code** - Follow AL best practices and naming conventions
+- **Documentation** - Include comprehensive READMEs and code comments
+- **Respectful** - Maintain a welcoming environment for all skill levels
 
 ## 📈 Project Statistics
 
-- **🗓️ Started:** July 2025
-- **📦 Total Hacks:** 2 (and growing every Saturday!)
-- **🎯 Focus Areas:** AL Development, Business Central Extensions
-- **👥 Target Audience:** Developers, Consultants, Solution Architects
+- **Started:** July 2025
+- **Total Hacks:** 2 (and growing every Saturday!)
+- **Focus Areas:** AL Development, Business Central Extensions
+- **Target Audience:** Developers, Consultants, Solution Architects
 
-## 📬 Stay Connected
+## Stay Connected
 
-- **📧 Weekly Updates** - Star this repo to get notified of new Saturday hacks
-- **💬 Discussions** - Use GitHub Discussions for questions and ideas
-- **🐛 Issues** - Report bugs or request specific hack topics
-- **🔗 Social** - Follow the journey on LinkedIn and Twitter
+- **Weekly Updates** - Star this repo to get notified of new Saturday hacks
+- **Discussions** - Use GitHub Discussions for questions and ideas
+- **Issues** - Report bugs or request specific hack topics
+- **Social** - Follow the journey on LinkedIn and Twitter
 
 ## 📄 License
 

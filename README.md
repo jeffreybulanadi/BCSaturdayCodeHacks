@@ -24,6 +24,7 @@ This repository is a weekly celebration of:
 - Cross-company data operations
 - Environment-aware programming
 - Event-driven programming
+- Role Center event handling
 - Modular design principles
 - Performance optimization techniques
 
@@ -44,10 +45,11 @@ This repository is a weekly celebration of:
 ```bash
 BCSaturdayCodeHacks/
 ├── 📁 hacks/                    # Individual hack folders
-│   ├── 📁 2025-07-26-ChangeCompanyDemo/      # Cross-company G/L Account sync
-│   ├── 📁 2025-08-02-EnvironmentVariables/   # Environment-aware programming
-│   ├── 📁 2025-08-09-ModuleInfo/             # Module information management
-│   └── 📁 [upcoming-hacks]/                  # More weekly demos
+│   ├── 📁 2025-07-26-ChangeCompanyDemo/          # Cross-company G/L Account sync
+│   ├── 📁 2025-08-02-EnvironmentVariables/       # Environment-aware programming
+│   ├── 📁 2025-08-09-ModuleInfo/                 # Module information management
+│   ├── 📁 2025-08-16-RoleCenterNotificationMgt/  # Role Center notification events
+│   └── 📁 [upcoming-hacks]/                      # More weekly demos
 ├── 📁 docs/                     # Comprehensive guides & tutorials
 ├── 📁 assets/                   # Screenshots, diagrams, visuals
 ├── 📁 .github/                  # Templates for issues & contributions
@@ -59,7 +61,18 @@ BCSaturdayCodeHacks/
 
 Explore the latest and greatest AL hacks, updated every Saturday! Each demo is designed to teach a practical concept for Business Central developers.
 
-### 🆕 Latest: [AL Module Info Demo](hacks/2025-08-09-ModuleInfo/) **(August 9, 2025)**
+### 🆕 Latest: [AL Role Center Notification Management](hacks/2025-08-16-RoleCenterNotificationMgt/) **(August 16, 2025)**
+Demonstrates Role Center event handling and notification management in Business Central, featuring:
+- ✅ Role Center event subscribers using OnBeforeShowNotifications
+- ✅ Event-driven architecture with customer data manipulation
+- ✅ Customer table and page extensions
+- ✅ Demo customer creation and management functionality
+
+> **Tech Stack:** AL Language, Business Central 26.0+, VS Code
+> 
+> **Key Concepts:** Event subscribers, Role Center notifications, Table extensions, Customer management
+
+### Previous: [AL Module Info Demo](hacks/2025-08-09-ModuleInfo/) **(August 9, 2025)**
 Demonstrates module information management in Business Central, featuring:
 - ✅ Display and manage module metadata
 - ✅ Custom setup page and table for module info
@@ -70,7 +83,7 @@ Demonstrates module information management in Business Central, featuring:
 > 
 > **Key Concepts:** Custom table/page, codeunit for module info, permission sets, extensibility
 
-### Previous: [AL Environment Variables Demo](hacks/2025-08-02-EnvironmentVariables/) **(August 2, 2025)**
+### Earlier: [AL Environment Variables Demo](hacks/2025-08-02-EnvironmentVariables/) **(August 2, 2025)**
 Demonstrates environment-aware programming in Business Central, featuring:
 - ✅ Environment information retrieval (tenant, domain, deployment type)
 - ✅ Safety patterns for sandbox-only operations
@@ -110,7 +123,7 @@ Stay tuned for upcoming hacks:
 
 2. **Explore a hack**
    ```bash
-   cd hacks/2025-08-02-EnvironmentVariables
+   cd hacks/2025-08-16-RoleCenterNotificationMgt
    code .  # Opens in VS Code
    ```
 
@@ -160,7 +173,7 @@ Stay tuned for upcoming hacks:
 ## 📈 Project Statistics
 
 - **Started:** July 2025
-- **Total Hacks:** 2 (and growing every Saturday!)
+- **Total Hacks:** 4 (and growing every Saturday!)
 - **Focus Areas:** AL Development, Business Central Extensions
 - **Target Audience:** Developers, Consultants, Solution Architects
 

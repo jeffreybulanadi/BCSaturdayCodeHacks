@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="AL CU Role Center Notification Mgt.">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 2628326664 - Method 3811770988 - NamedType 4041947502" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 New customers created. Do you want to open customer card?</source>
+          <note from="Developer" annotates="general" priority="2">%1 - No. of new customer</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JB Event Handler - Method InvokeDemoCustomerSetup - NamedType OpenNewCustomerQst</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1067189602 - Action 3668801417 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Executes the Deleted Selected Customers action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension JB Customer List - Action JB DeleteSelectedCustomers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1067189602 - Action 3668801417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Deleted Selected Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension JB Customer List - Action JB DeleteSelectedCustomers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1919623280 - Field 2942499611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Is Demo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension JB Customer - Field Is Demo - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

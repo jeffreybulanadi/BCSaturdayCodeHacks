@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="AL Notification Data Type">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 1575313303 - Method 3824920039 - NamedType 2600305501" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Not So Booooooring App has been installed. Would you like to activate it?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JB Notification Mgt. - Method SendLicenseActivationReminder - NamedType AppInstalledLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1575313303 - Method 3824920039 - NamedType 2944692463" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activate now</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JB Notification Mgt. - Method SendLicenseActivationReminder - NamedType ActivateNowLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1575313303 - Method 3824920039 - NamedType 2821956095" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remind me in 10 billion days</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JB Notification Mgt. - Method SendLicenseActivationReminder - NamedType RemindMeLaterLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1575313303 - Method 3824920039 - NamedType 2421590226" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Don't show this again</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit JB Notification Mgt. - Method SendLicenseActivationReminder - NamedType SuppressNotificationLbl</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,32 @@
+{
+  "id": "ecad04c1-3a88-4adc-8806-bf1717b51d4a",
+  "name": "AL Notification Data Type",
+  "publisher": "Jeffrey Bulanadi",
+  "version": "26.1.0.250823",
+  "brief": "Notifications are ideal for communicating status, suggestions, or optional actions without disrupting workflow.",
+  "description": "The Notification data type in AL allows developers to send non-blocking messages to the Business Central Web Client.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "https://learnbeyondbc.com",
+  "url": "https://learnbeyondbc.com",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 50108,
+      "to": 50111
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "15.0",
+  "features": [
+    "NoImplicitWith", "TranslationFile"
+  ]
+}

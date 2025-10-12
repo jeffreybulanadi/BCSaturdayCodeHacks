@@ -28,6 +28,8 @@ This repository is a weekly celebration of:
 - Notification data type implementation
 - OAuth 2.0 authentication flows
 - API integration and automation
+- Collection automation and scripting
+- Token lifecycle management
 - Modular design principles
 - Performance optimization techniques
 
@@ -55,6 +57,7 @@ BCSaturdayCodeHacks/
 │   ├── 📁 2025-08-23-NoficationsDataType/        # Notification Data Type implementation
 │   ├── 📁 2025-08-30-OAuthAutomationSetupP1/     # OAuth automation setup - Part 1 (Entra ID)
 │   ├── 📁 2025-09-06-OAuthAutomationSetupP2/     # OAuth automation setup - Part 2 (Postman & BC)
+│   ├── 📁 2025-09-13-OAuthAutomationsetupP3/     # OAuth automation setup - Part 3 (Collection Automation)
 │   └── 📁 [upcoming-hacks]/                      # More weekly demos
 ├── 📁 docs/                     # Comprehensive guides & tutorials
 ├── 📁 assets/                   # Screenshots, diagrams, visuals
@@ -67,7 +70,19 @@ BCSaturdayCodeHacks/
 
 Explore the latest and greatest AL hacks, updated every Saturday! Each demo is designed to teach a practical concept for Business Central developers.
 
-### 🆕 Latest: [OAuth Automation Setup - Part 2: Postman & BC Integration](hacks/2025-09-06-OAuthAutomationSetupP2/) **(September 6, 2025)**
+### 🆕 Latest: [OAuth Automation Setup - Part 3: Collection Automation](hacks/2025-09-13-OAuthAutomationsetupP3/) **(September 13, 2025)**
+Advanced Postman collection automation for streamlined Business Central API workflows, featuring:
+- ✅ Automated token management with Bearer authentication setup
+- ✅ Collection-level scripts for token handling and expiration tracking
+- ✅ HTTP request configuration for Business Central APIs
+- ✅ Variable management for dynamic token and expiration handling
+- ✅ Complete workflow from token acquisition to successful API calls
+
+> **Tech Stack:** Postman Collections, Bearer Tokens, Business Central APIs, OAuth 2.0, JavaScript (Pre-request Scripts)
+> 
+> **Key Concepts:** Collection automation, Token lifecycle management, API request optimization, Bearer authentication, Postman scripting
+
+### Previous: [OAuth Automation Setup - Part 2: Postman & BC Integration](hacks/2025-09-06-OAuthAutomationSetupP2/) **(September 6, 2025)**
 Comprehensive tutorial for setting up OAuth automation with Postman and Business Central integration, featuring:
 - ✅ Postman workspace and collection setup for Business Central APIs
 - ✅ OAuth 2.0 configuration and token acquisition workflows
@@ -215,7 +230,7 @@ Stay tuned for upcoming hacks:
 ## 📈 Project Statistics
 
 - **Started:** July 2025
-- **Total Hacks:** 7 (and growing every Saturday!)
+- **Total Hacks:** 8 (and growing every Saturday!)
 - **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation
 - **Target Audience:** Developers, Consultants, Solution Architects
 

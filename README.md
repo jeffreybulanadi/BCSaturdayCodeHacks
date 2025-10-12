@@ -26,6 +26,8 @@ This repository is a weekly celebration of:
 - Event-driven programming
 - Role Center event handling
 - Notification data type implementation
+- OAuth 2.0 authentication flows
+- API integration and automation
 - Modular design principles
 - Performance optimization techniques
 
@@ -51,6 +53,8 @@ BCSaturdayCodeHacks/
 │   ├── 📁 2025-08-09-ModuleInfo/                 # Module information management
 │   ├── 📁 2025-08-16-RoleCenterNotificationMgt/  # Role Center notification events
 │   ├── 📁 2025-08-23-NoficationsDataType/        # Notification Data Type implementation
+│   ├── 📁 2025-08-30-OAuthAutomationSetupP1/     # OAuth automation setup - Part 1 (Entra ID)
+│   ├── 📁 2025-09-06-OAuthAutomationSetupP2/     # OAuth automation setup - Part 2 (Postman & BC)
 │   └── 📁 [upcoming-hacks]/                      # More weekly demos
 ├── 📁 docs/                     # Comprehensive guides & tutorials
 ├── 📁 assets/                   # Screenshots, diagrams, visuals
@@ -63,7 +67,31 @@ BCSaturdayCodeHacks/
 
 Explore the latest and greatest AL hacks, updated every Saturday! Each demo is designed to teach a practical concept for Business Central developers.
 
-### 🆕 Latest: [AL Notification Data Type Demo](hacks/2025-08-23-NoficationsDataType/) **(August 23, 2025)**
+### 🆕 Latest: [OAuth Automation Setup - Part 2: Postman & BC Integration](hacks/2025-09-06-OAuthAutomationSetupP2/) **(September 6, 2025)**
+Comprehensive tutorial for setting up OAuth automation with Postman and Business Central integration, featuring:
+- ✅ Postman workspace and collection setup for Business Central APIs
+- ✅ OAuth 2.0 configuration and token acquisition workflows
+- ✅ Business Central Entra ID application configuration
+- ✅ Variable management and request automation in Postman
+- ✅ Step-by-step visual guide with detailed screenshots
+
+> **Tech Stack:** Postman, Microsoft Entra ID, Business Central APIs, OAuth 2.0
+> 
+> **Key Concepts:** API testing, OAuth automation, Postman collections, Business Central integration, Token management
+
+### Previous: [OAuth Automation Setup - Part 1: Microsoft Entra ID](hacks/2025-08-30-OAuthAutomationSetupP1/) **(August 30, 2025)**
+Detailed guide for setting up OAuth automation with Microsoft Entra ID for Business Central, featuring:
+- ✅ Microsoft Entra ID app registration process
+- ✅ API permissions configuration for Business Central
+- ✅ Client secrets management and security setup
+- ✅ Admin consent workflow for delegated permissions
+- ✅ Complete visual walkthrough with Azure portal screenshots
+
+> **Tech Stack:** Microsoft Entra ID, Azure Portal, Business Central APIs, OAuth 2.0
+> 
+> **Key Concepts:** App registration, API permissions, OAuth setup, Azure AD configuration, Security best practices
+
+### Previous: [AL Notification Data Type Demo](hacks/2025-08-23-NoficationsDataType/) **(August 23, 2025)**
 Demonstrates advanced notification implementation using the Notification data type in Business Central, featuring:
 - ✅ Interactive notifications with multiple action buttons
 - ✅ Role Center event integration with OnBeforeShowNotifications
@@ -120,10 +148,11 @@ Demonstrates cross-company data operations in Business Central, featuring:
 
 ### 🔮 Coming Soon
 Stay tuned for upcoming hacks:
-- **API Integration Patterns** – RESTful web service consumption
+- **Advanced API Integration** – Complex web service patterns and error handling
 - **Performance Optimization** – Query efficiency and data handling
 - **Custom Control Add-ins** – JavaScript integration with AL
 - **Automated Testing** – Unit testing strategies for AL
+- **OAuth in AL Code** – Implementing OAuth flows directly in Business Central extensions
 
 ## 🚀 Quick Start
 
@@ -186,8 +215,8 @@ Stay tuned for upcoming hacks:
 ## 📈 Project Statistics
 
 - **Started:** July 2025
-- **Total Hacks:** 5 (and growing every Saturday!)
-- **Focus Areas:** AL Development, Business Central Extensions
+- **Total Hacks:** 7 (and growing every Saturday!)
+- **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation
 - **Target Audience:** Developers, Consultants, Solution Architects
 
 ## Stay Connected

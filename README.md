@@ -30,11 +30,15 @@ This repository is a weekly celebration of:
 - API integration and automation
 - Collection automation and scripting
 - Token lifecycle management
+- Azure CLI automation and DevOps
+- Infrastructure as Code practices
 - Modular design principles
 - Performance optimization techniques
 
 ### 🛠️ Development Tools
 - VS Code configurations
+- Azure CLI automation
+- PowerShell scripting
 - Debugging strategies
 - Testing frameworks
 - Deployment automation
@@ -57,7 +61,8 @@ BCSaturdayCodeHacks/
 │   ├── 📁 2025-08-23-NoficationsDataType/        # Notification Data Type implementation
 │   ├── 📁 2025-08-30-OAuthAutomationSetupP1/     # OAuth automation setup - Part 1 (Entra ID)
 │   ├── 📁 2025-09-06-OAuthAutomationSetupP2/     # OAuth automation setup - Part 2 (Postman & BC)
-│   ├── 📁 2025-09-13-OAuthAutomationsetupP3/     # OAuth automation setup - Part 3 (Collection Automation)
+│   ├── 📁 2025-09-13-OAuthAutomationSetupP3/     # OAuth automation setup - Part 3 (Collection Automation)
+│   ├── 📁 2025-09-20-OAuthAutomationSetupP4/     # OAuth automation setup - Part 4 (Azure CLI Automation)
 │   └── 📁 [upcoming-hacks]/                      # More weekly demos
 ├── 📁 docs/                     # Comprehensive guides & tutorials
 ├── 📁 assets/                   # Screenshots, diagrams, visuals
@@ -70,7 +75,20 @@ BCSaturdayCodeHacks/
 
 Explore the latest and greatest AL hacks, updated every Saturday! Each demo is designed to teach a practical concept for Business Central developers.
 
-### 🆕 Latest: [OAuth Automation Setup - Part 3: Collection Automation](hacks/2025-09-13-OAuthAutomationsetupP3/) **(September 13, 2025)**
+### 🆕 Latest: [OAuth Automation Setup - Part 4: Azure CLI Automation](hacks/2025-09-20-OAuthAutomationSetupP4/) **(September 20, 2025)**
+Complete guide to automating Azure AD app registration using Azure CLI for Business Central OAuth setup, featuring:
+- ✅ Azure CLI installation and configuration with PowerShell
+- ✅ Azure authentication and account management workflows
+- ✅ Automated app registration with Business Central API permissions
+- ✅ Command-line client secret generation and management
+- ✅ Admin consent automation for delegated permissions
+- ✅ Single-command app creation with complete JSON configuration
+
+> **Tech Stack:** Azure CLI, PowerShell, Microsoft Entra ID, Business Central APIs, OAuth 2.0, JSON Configuration
+> 
+> **Key Concepts:** CLI automation, Infrastructure as Code, App registration automation, DevOps practices, Command-line scripting, Azure AD management
+
+### Previous: [OAuth Automation Setup - Part 3: Collection Automation](hacks/2025-09-13-OAuthAutomationSetupP3/) **(September 13, 2025)**
 Advanced Postman collection automation for streamlined Business Central API workflows, featuring:
 - ✅ Automated token management with Bearer authentication setup
 - ✅ Collection-level scripts for token handling and expiration tracking
@@ -230,8 +248,8 @@ Stay tuned for upcoming hacks:
 ## 📈 Project Statistics
 
 - **Started:** July 2025
-- **Total Hacks:** 8 (and growing every Saturday!)
-- **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation
+- **Total Hacks:** 9 (and growing every Saturday!)
+- **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation, DevOps & CLI Tools
 - **Target Audience:** Developers, Consultants, Solution Architects
 
 ## Stay Connected

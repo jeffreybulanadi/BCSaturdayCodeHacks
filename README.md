@@ -32,6 +32,8 @@ This repository is a weekly celebration of:
 - Token lifecycle management
 - Azure CLI automation and DevOps
 - Infrastructure as Code practices
+- REST API consumption patterns
+- PowerShell integration workflows
 - Modular design principles
 - Performance optimization techniques
 
@@ -45,6 +47,8 @@ This repository is a weekly celebration of:
 
 ### 🔧 Real-World Solutions
 - Integration patterns
+- REST API consumption
+- PowerShell automation scripts
 - Data migration utilities
 - Custom page enhancements
 - Business logic implementations
@@ -63,6 +67,7 @@ BCSaturdayCodeHacks/
 │   ├── 📁 2025-09-06-OAuthAutomationSetupP2/     # OAuth automation setup - Part 2 (Postman & BC)
 │   ├── 📁 2025-09-13-OAuthAutomationSetupP3/     # OAuth automation setup - Part 3 (Collection Automation)
 │   ├── 📁 2025-09-20-OAuthAutomationSetupP4/     # OAuth automation setup - Part 4 (Azure CLI Automation)
+│   ├── 📁 2025-09-27-OauthAutomationSetupP5/     # OAuth automation setup - Part 5 (PowerShell API Integration)
 │   └── 📁 [upcoming-hacks]/                      # More weekly demos
 ├── 📁 docs/                     # Comprehensive guides & tutorials
 ├── 📁 assets/                   # Screenshots, diagrams, visuals
@@ -75,7 +80,20 @@ BCSaturdayCodeHacks/
 
 Explore the latest and greatest AL hacks, updated every Saturday! Each demo is designed to teach a practical concept for Business Central developers.
 
-### 🆕 Latest: [OAuth Automation Setup - Part 4: Azure CLI Automation](hacks/2025-09-20-OAuthAutomationSetupP4/) **(September 20, 2025)**
+### 🆕 Latest: [OAuth Automation Setup - Part 5: PowerShell API Integration](hacks/2025-09-27-OauthAutomationSetupP5/) **(September 27, 2025)**
+Master PowerShell scripting for complete OAuth 2.0 token acquisition and Business Central API integration, featuring:
+- ✅ PowerShell OAuth 2.0 token acquisition using Invoke-RestMethod
+- ✅ Dynamic token management with OAuth v2 endpoints
+- ✅ Business Central API consumption with Bearer authentication
+- ✅ Reusable PowerShell scripts for companies endpoint queries
+- ✅ Complete end-to-end API workflow from authentication to data retrieval
+- ✅ Production-ready scripts with error handling and best practices
+
+> **Tech Stack:** PowerShell, OAuth 2.0, Business Central APIs, REST APIs, Invoke-RestMethod, Bearer Tokens
+> 
+> **Key Concepts:** PowerShell scripting, REST API consumption, OAuth token management, API authentication flows, Script automation, Integration patterns
+
+### Previous: [OAuth Automation Setup - Part 4: Azure CLI Automation](hacks/2025-09-20-OAuthAutomationSetupP4/) **(September 20, 2025)**
 Complete guide to automating Azure AD app registration using Azure CLI for Business Central OAuth setup, featuring:
 - ✅ Azure CLI installation and configuration with PowerShell
 - ✅ Azure authentication and account management workflows
@@ -248,8 +266,8 @@ Stay tuned for upcoming hacks:
 ## 📈 Project Statistics
 
 - **Started:** July 2025
-- **Total Hacks:** 9 (and growing every Saturday!)
-- **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation, DevOps & CLI Tools
+- **Total Hacks:** 10 (and growing every Saturday!)
+- **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation, DevOps & CLI Tools, PowerShell Scripting
 - **Target Audience:** Developers, Consultants, Solution Architects
 
 ## Stay Connected

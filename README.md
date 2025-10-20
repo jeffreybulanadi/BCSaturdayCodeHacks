@@ -58,6 +58,8 @@ This repository is a weekly celebration of:
 ```bash
 BCSaturdayCodeHacks/
 ├── 📁 hacks/                    # Individual hack folders
+│   ├── 📁 2025-07-12-FindRecordManagement/       # Find Record Management utility
+│   ├── 📁 2025-07-19-BigTextDemo/                # BigText data type for large content
 │   ├── 📁 2025-07-26-ChangeCompanyDemo/          # Cross-company G/L Account sync
 │   ├── 📁 2025-08-02-EnvironmentVariables/       # Environment-aware programming
 │   ├── 📁 2025-08-09-ModuleInfo/                 # Module information management
@@ -196,6 +198,32 @@ Demonstrates cross-company data operations in Business Central, featuring:
 > **Tech Stack:** AL Language, Business Central 26.0+, VS Code
 > 
 > **Key Concepts:** ChangeCompany method, Record.TransferFields(), Cross-company operations
+
+### Earlier: [BigText Data Type Demo](hacks/2025-07-19-BigTextDemo/) **(July 19, 2025)**
+Demonstrates BigText data type for handling large text content in Business Central, featuring:
+- ✅ HTML content storage using BigText and Blob fields
+- ✅ File upload functionality for HTML specifications
+- ✅ Rich content display with ExtendedDatatype property
+- ✅ Stream-based data handling (InStream/OutStream)
+- ✅ Item Card extension with HTML description field
+- ✅ Production-ready pattern for large document management
+
+> **Tech Stack:** AL Language, Business Central 26.0+, VS Code, HTML
+> 
+> **Key Concepts:** BigText data type, Blob fields, InStream/OutStream, File upload, Rich content, Table/Page extensions
+
+### Earlier: [Find Record Management Demo](hacks/2025-07-12-FindRecordManagement/) **(July 12, 2025)**
+Demonstrates using the Find Record Management codeunit for efficient record operations, featuring:
+- ✅ Efficient last record retrieval using system codeunits
+- ✅ GetLastEntryIntFieldValue method implementation
+- ✅ Comparison with traditional FindLast() approach
+- ✅ Performance optimization for entry number queries
+- ✅ Drill-down functionality to related records
+- ✅ Best practices for working with ledger entries
+
+> **Tech Stack:** AL Language, Business Central 26.0+, VS Code
+> 
+> **Key Concepts:** Find Record Management codeunit, Record retrieval optimization, System codeunits, Performance patterns
 
 ### 🔮 Coming Soon
 Stay tuned for upcoming hacks:

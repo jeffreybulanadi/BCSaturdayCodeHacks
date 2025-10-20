@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Publish: manila.pte.ltd (CDX) DynamicsCommunity",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "DynamicsCommunity",
+            "breakOnError": "ExcludeTry",
+            "tenant": "d8f09282-d9bb-4b27-8491-c4d87ac81e07",
+            "schemaUpdateMode": "ForceSync",
+            "forceUpgrade": true
+        }
+    ]
+}
+
+// BUKGBGNXR

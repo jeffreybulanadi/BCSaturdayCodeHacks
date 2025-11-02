@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="AL DataArchive Codeunit">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3417717184 - Field 2714230452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Completion Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Case - Field Completion Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3417717184 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Case - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3417717184 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Case - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3417717184 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Case - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3417717184 - Field 863923670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Case - Field Project No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3417717184 - Field 3692706522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Case - Field Total Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>About Case Data Management</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This page allows administrators to manage Case data for testing archive functionality. It provides options to generate test data and archive old cases.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Case Data Management</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Control 4225729237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Management</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Control DataManagement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Control 84074407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current Data Statistics</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Control Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Control 4154776140 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the number of cases older than 3 years that can be archived.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Control OldCases - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Control 4154776140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Old Cases (3+ years)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Control OldCases - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Control 2866712592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the number of recent cases that should not be archived.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Control RecentCases - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Control 2866712592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recent Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Control RecentCases - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Control 2281452631 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the total number of case records in the system.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Control TotalCases - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Control 2281452631 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Control TotalCases - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Control 419426744 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Control Information - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Control 4000568837 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows instructions for using the data management functions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Control InfoText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Control 4000568837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Control InfoText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Action 2165398930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Operations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Action DataOperations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Action 4198685510 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archives and deletes case records older than 3 years using the Data Archive functionality.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Action ArchiveOldCases - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Action 4198685510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive Old Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Action ArchiveOldCases - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Action 1774429587 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generates dummy case records for testing archive functionality. Creates both old (3+ years) and recent data.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Action SeedTestData - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Action 1774429587 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate Test Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Action SeedTestData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Action 2144571351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Action ViewData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Action 3140707008 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refreshes the data statistics displayed on this page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Action RefreshStats - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Action 3140707008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh Statistics</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Action RefreshStats - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Action 598767174 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the Case list to view all case records.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Action ViewCases - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4010809249 - Action 598767174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case Data Management - Action ViewCases - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Control 2714230452 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when this case was completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Control Completion Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Control 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer name for this case.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Control Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer number for this case.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Control 3641927271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unique ID for this case record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Control ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Control 863923670 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the project number for this case.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Control Project No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Control 3692706522 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total amount for this case.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Control Total Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Action 2442972735 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Removes all filters to show all case records.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Action ShowAllCases - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Action 2442972735 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show All Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Action ShowAllCases - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Action 2481919173 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters to show only cases older than 3 years that can be archived.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Action ShowOldCases - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Action 2481919173 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Old Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Action ShowOldCases - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Action 1491863025 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters to show only recent cases that should not be archived.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Action ShowRecentCases - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Action 1491863025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Recent Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Action ShowRecentCases - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Action 4225729237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the Case Data Management page for seeding and archiving operations.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Action DataManagement - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 539606194 - Action 4225729237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Management</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Case List - Action DataManagement - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

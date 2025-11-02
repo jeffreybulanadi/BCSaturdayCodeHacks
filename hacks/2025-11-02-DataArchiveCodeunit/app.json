@@ -1,0 +1,40 @@
+{
+    "id": "c98ffb4b-d6dc-43e7-a21e-b15d59e98b76",
+    "name": "AL DataArchive Codeunit",
+    "publisher": "Jeffrey Bulanadi",
+    "version": "26.2.0.251102",
+    "brief": "AL extension that demonstrates how to implement and use the Data Archive functionality for archiving and managing old records.",
+    "description": "The Data Archive functionality in AL allows developers to efficiently archive and manage old records in Business Central.",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "https://learnbeyondbc.com",
+    "url": "https://learnbeyondbc.com",
+    "logo": "",
+    "dependencies": [
+        {
+            "id": "7819d79d-feea-4f09-bbed-5bbaca4bf323",
+            "name": "Data Archive",
+            "publisher": "Microsoft",
+            "version": "26.0.0.0"
+        }
+    ],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "26.0.0.0",
+    "idRanges": [
+        {
+            "from": 50100,
+            "to": 50110
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": false,
+        "includeSourceInSymbolFile": false
+    },
+    "runtime": "15.0",
+    "features": [
+        "NoImplicitWith",
+        "TranslationFile"
+    ]
+}

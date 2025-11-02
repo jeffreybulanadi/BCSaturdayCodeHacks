@@ -1,12 +1,12 @@
-# #BCSaturdayCodeHacks
+# #BCWeekendCodeHacks
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Business Central](https://img.shields.io/badge/Business%20Central-AL%20Language-blue.svg)](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/)
-[![Weekly Updates](https://img.shields.io/badge/Updates-Every%20Saturday-green.svg)](#)
+[![Weekly Updates](https://img.shields.io/badge/Updates-Every%20Weekend-green.svg)](#)
 
-Welcome to the **code sanctuary** for Business Central developers hungry for rhythm, reusability, and real-world hacks. #BCSaturdayCodeHacks is a curated repository of modular AL code snippets and demos, designed to teach, inspire, and echo the cadence of clean architecture.
+Welcome to the **code sanctuary** for Business Central developers hungry for rhythm, reusability, and real-world hacks. #BCWeekendCodeHacks is a curated repository of modular AL code snippets and demos, designed to teach, inspire, and echo the cadence of clean architecture.
 
-Every **Saturday**, I share a quick AL solution—whether a trick, pattern, or modular design—built for real-world impact and community learning.
+Every **Weekend**, I share a quick AL solution—whether a trick, pattern, or modular design—built for real-world impact and community learning.
 
 ## 🎯 Purpose
 
@@ -34,6 +34,9 @@ This repository is a weekly celebration of:
 - Infrastructure as Code practices
 - REST API consumption patterns
 - PowerShell integration workflows
+- Data lifecycle management and archiving
+- Retention policies and data cleanup
+- RecordRef patterns for bulk operations
 - Modular design principles
 - Performance optimization techniques
 
@@ -49,6 +52,8 @@ This repository is a weekly celebration of:
 - Integration patterns
 - REST API consumption
 - PowerShell automation scripts
+- Data archiving and retention
+- Test data generation utilities
 - Data migration utilities
 - Custom page enhancements
 - Business logic implementations
@@ -56,7 +61,7 @@ This repository is a weekly celebration of:
 ## 📦 Repository Structure
 
 ```bash
-BCSaturdayCodeHacks/
+BCWeekendCodeHacks/
 ├── 📁 hacks/                    # Individual hack folders
 │   ├── 📁 2025-07-12-FindRecordManagement/       # Find Record Management utility
 │   ├── 📁 2025-07-19-BigTextDemo/                # BigText data type for large content
@@ -70,6 +75,7 @@ BCSaturdayCodeHacks/
 │   ├── 📁 2025-09-13-OAuthAutomationSetupP3/     # OAuth automation setup - Part 3 (Collection Automation)
 │   ├── 📁 2025-09-20-OAuthAutomationSetupP4/     # OAuth automation setup - Part 4 (Azure CLI Automation)
 │   ├── 📁 2025-09-27-OauthAutomationSetupP5/     # OAuth automation setup - Part 5 (PowerShell API Integration)
+│   ├── 📁 2025-11-02-DataArchiveCodeunit/        # Data Archive functionality for lifecycle management
 │   └── 📁 [upcoming-hacks]/                      # More weekly demos
 ├── 📁 docs/                     # Comprehensive guides & tutorials
 ├── 📁 assets/                   # Screenshots, diagrams, visuals
@@ -80,9 +86,24 @@ BCSaturdayCodeHacks/
 
 ## 🗓️ Featured Hacks
 
-Explore the latest and greatest AL hacks, updated every Saturday! Each demo is designed to teach a practical concept for Business Central developers.
+Explore the latest and greatest AL hacks, updated every weekend (Saturday or Sunday)! Each demo is designed to teach a practical concept for Business Central developers.
 
-### 🆕 Latest: [OAuth Automation Setup - Part 5: PowerShell API Integration](hacks/2025-09-27-OauthAutomationSetupP5/) **(September 27, 2025)**
+### 🆕 Latest: [Data Archive Codeunit Demo](hacks/2025-11-02-DataArchiveCodeunit/) **(November 2, 2025)**
+Complete guide to implementing Data Archive functionality for efficient data lifecycle management in Business Central, featuring:
+- ✅ Full Data Archive integration using Business Central's built-in functionality
+- ✅ Automated test data seeder creating 75 realistic case records (50 old + 25 current)
+- ✅ Smart bulk archiving with SaveRecords() pattern for reliable operations
+- ✅ 3-year retention policy with automatic cutoff date calculation
+- ✅ Management interface with statistics and one-click archive/seed/delete operations
+- ✅ RecordRef patterns for efficient data operations and filtering
+- ✅ Professional archive naming with record counts and timestamps
+- ✅ Complete table, codeunit, and page implementations
+
+> **Tech Stack:** AL Language, Business Central 26.2+, Data Archive Codeunit, RecordRef, VS Code
+> 
+> **Key Concepts:** Data lifecycle management, Retention policies, Bulk operations, RecordRef patterns, Test data generation, Archive naming conventions, Data cleanup
+
+### Previous: [OAuth Automation Setup - Part 5: PowerShell API Integration](hacks/2025-09-27-OauthAutomationSetupP5/) **(September 27, 2025)**
 Master PowerShell scripting for complete OAuth 2.0 token acquisition and Business Central API integration, featuring:
 - ✅ PowerShell OAuth 2.0 token acquisition using Invoke-RestMethod
 - ✅ Dynamic token management with OAuth v2 endpoints
@@ -238,8 +259,8 @@ Stay tuned for upcoming hacks:
 ### For Developers
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/BCSaturdayCodeHacks.git
-   cd BCSaturdayCodeHacks
+   git clone https://github.com/jeffreybulanadi/BCWeekendCodeHacks.git
+   cd BCWeekendCodeHacks
    ```
 
 2. **Explore a hack**
@@ -281,7 +302,7 @@ Stay tuned for upcoming hacks:
 ### How to Contribute
 1. **Fork** the repository
 2. **Create** a feature branch (`git checkout -b feature/amazing-hack`)
-3. **Commit** your changes (`git commit -m 'Add amazing Saturday hack'`)
+3. **Commit** your changes (`git commit -m 'Add amazing weekend hack'`)
 4. **Push** to the branch (`git push origin feature/amazing-hack`)
 5. **Open** a Pull Request
 
@@ -294,13 +315,13 @@ Stay tuned for upcoming hacks:
 ## 📈 Project Statistics
 
 - **Started:** July 2025
-- **Total Hacks:** 10 (and growing every Saturday!)
-- **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation, DevOps & CLI Tools, PowerShell Scripting
+- **Total Hacks:** 13 (and growing every weekend!)
+- **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation, DevOps & CLI Tools, PowerShell Scripting, Data Lifecycle Management
 - **Target Audience:** Developers, Consultants, Solution Architects
 
 ## Stay Connected
 
-- **Weekly Updates** - Star this repo to get notified of new Saturday hacks
+- **Weekly Updates** - Star this repo to get notified of new weekend hacks
 - **Discussions** - Use GitHub Discussions for questions and ideas
 - **Issues** - Report bugs or request specific hack topics
 - **Social** - Follow the journey on LinkedIn and Twitter
@@ -311,7 +332,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **Jeffrey Bulanadi** - Creator and maintainer of #BCSaturdayCodeHacks, passionate AL developer sharing knowledge every Saturday
+- **Jeffrey Bulanadi** - Creator and maintainer of #BCWeekendCodeHacks, passionate AL developer sharing knowledge every weekend
 - **Microsoft Dynamics 365 Business Central Team** - For the amazing AL language and platform
 - **BC Community** - For continuous inspiration and knowledge sharing
 - **Contributors** - Everyone who makes this project better

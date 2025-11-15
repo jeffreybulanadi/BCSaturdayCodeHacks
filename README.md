@@ -37,11 +37,14 @@ This repository is a weekly celebration of:
 - Data lifecycle management and archiving
 - Retention policies and data cleanup
 - RecordRef patterns for bulk operations
+- Workspace configuration and team collaboration
 - Modular design principles
 - Performance optimization techniques
 
 ### 🛠️ Development Tools
 - VS Code configurations
+- Extension recommendations (extensions.json)
+- Developer productivity tools
 - Azure CLI automation
 - PowerShell scripting
 - Debugging strategies
@@ -76,6 +79,7 @@ BCWeekendCodeHacks/
 │   ├── 📁 2025-09-20-OAuthAutomationSetupP4/     # OAuth automation setup - Part 4 (Azure CLI Automation)
 │   ├── 📁 2025-09-27-OauthAutomationSetupP5/     # OAuth automation setup - Part 5 (PowerShell API Integration)
 │   ├── 📁 2025-11-02-DataArchiveCodeunit/        # Data Archive functionality for lifecycle management
+│   ├── 📁 2025-11-08-ExtensionsJson/             # VS Code extensions.json configuration
 │   └── 📁 [upcoming-hacks]/                      # More weekly demos
 ├── 📁 docs/                     # Comprehensive guides & tutorials
 ├── 📁 assets/                   # Screenshots, diagrams, visuals
@@ -88,7 +92,24 @@ BCWeekendCodeHacks/
 
 Explore the latest and greatest AL hacks, updated every weekend (Saturday or Sunday)! Each demo is designed to teach a practical concept for Business Central developers.
 
-### 🆕 Latest: [Data Archive Codeunit Demo](hacks/2025-11-02-DataArchiveCodeunit/) **(November 2, 2025)**
+### 🆕 Latest: [VS Code Extensions.json Configuration](hacks/2025-11-08-ExtensionsJson/) **(November 8, 2025)**
+Curated VS Code extensions.json file for AL developers - boost your productivity with recommended extensions, featuring:
+- ✅ Core AL development tools (AL Language, CRS AL Extension)
+- ✅ Navigation & organization extensions (AL Object Designer, AL Code Outline, AL Navigator)
+- ✅ Code quality & formatting tools (BusinessCentral LinterCop, AL Formatter, AL CodeActions)
+- ✅ Variable management helpers (AL Variable QuickFixes, AL Var Helper)
+- ✅ Translation management suite (AL Translation Center, XLIFF Sync)
+- ✅ Testing framework support (ATDD TestScriptor)
+- ✅ Git integration tools (Git Graph, Git History, Git Blame)
+- ✅ API testing clients (REST Client, Thunder Client, REST Book)
+- ✅ General productivity utilities (TODO Tree, PowerShell, VS Code Icons)
+- ✅ Team collaboration ready - share with your entire development team
+
+> **Tech Stack:** VS Code, JSON Configuration, AL Development Tools, Extension Marketplace
+> 
+> **Key Concepts:** Developer productivity, Team collaboration, Workspace configuration, Extension recommendations, Development environment setup, Best practices
+
+### Previous: [Data Archive Codeunit Demo](hacks/2025-11-02-DataArchiveCodeunit/) **(November 2, 2025)**
 Complete guide to implementing Data Archive functionality for efficient data lifecycle management in Business Central, featuring:
 - ✅ Full Data Archive integration using Business Central's built-in functionality
 - ✅ Automated test data seeder creating 75 realistic case records (50 old + 25 current)
@@ -315,8 +336,8 @@ Stay tuned for upcoming hacks:
 ## 📈 Project Statistics
 
 - **Started:** July 2025
-- **Total Hacks:** 13 (and growing every weekend!)
-- **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation, DevOps & CLI Tools, PowerShell Scripting, Data Lifecycle Management
+- **Total Hacks:** 14 (and growing every weekend!)
+- **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation, DevOps & CLI Tools, PowerShell Scripting, Data Lifecycle Management, Developer Productivity
 - **Target Audience:** Developers, Consultants, Solution Architects
 
 ## Stay Connected

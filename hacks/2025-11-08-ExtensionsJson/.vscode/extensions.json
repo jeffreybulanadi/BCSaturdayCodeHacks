@@ -1,0 +1,49 @@
+{
+        "recommendations": [
+                // Core AL Development
+                "ms-dynamics-smb.al",
+                "waldo.crs-al-language-extension",
+                
+                // Navigation & Organization
+                "martonsagi.al-object-designer",
+                "andrzejzwierzchowski.al-code-outline",
+                "wbrakowski.al-navigator",
+                "BartPermentier.al-toolbox",
+                "nabsolutions.nab-al-tools",
+                "vjeko.vjeko-al-objid",
+                
+                // Code Quality & Formatting
+                "stefanmaron.businesscentral-lintercop",
+                "rasmus.al-formatter",
+                "davidfeldhoff.al-codeactions",
+                
+                // Variable Management
+                "himanshusharma.vscode-al-variable-quickfixes",
+                "rasmus.al-var-helper",
+                
+                // Translation Management
+                "daniel-nt.al-translation-center",
+                "daniel-nt.al-translation-snippets",
+                "rvanbekkum.xliff-sync",
+                
+                // Testing
+                "fluxxusnl.atdd-testscriptor",
+                
+                // Git Integration
+                "mhutchie.git-graph",
+                "donjayamanne.githistory",
+                "waderyan.gitblame",
+                "srmeyers.git-prefix",
+                
+                // API Testing
+                "humao.rest-client",
+                "rangav.vscode-thunder-client",
+                "tanhakabir.rest-book",
+                
+                // General Utilities
+                "Gruntfuggly.todo-tree",
+                "wayou.vscode-todo-highlight",
+                "vscode-icons-team.vscode-icons",
+                "ms-vscode.powershell"
+        ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": "bbc1aa19-8c9b-4afd-80e1-9007bed832a0",
+    "name": "AL extensions.json file",
+    "publisher": "Jeffrey Bulanadi",
+    "version": "26.2.0.251108",
+    "brief": "The configuration file that does the heavy lifting so you don't have to.",
+    "description": "A good set of extensions can make working with a particular workspace or programming language more productive and you'd often like to share this list with your team or colleagues.",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "https://learnbeyondbc.com",
+    "url": "https://learnbeyondbc.com",
+    "logo": "",
+    "dependencies": [],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "26.0.0.0",
+    "idRanges": [
+        {
+            "from": 50100,
+            "to": 50110
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": false,
+        "includeSourceInSymbolFile": false
+    },
+    "runtime": "15.0",
+    "features": [
+        "NoImplicitWith",
+        "TranslationFile"
+    ]
+}

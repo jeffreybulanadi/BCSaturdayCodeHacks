@@ -38,6 +38,9 @@ This repository is a weekly celebration of:
 - Retention policies and data cleanup
 - RecordRef patterns for bulk operations
 - Workspace configuration and team collaboration
+- Version compatibility and migration strategies
+- Preprocessor directives and conditional compilation
+- Breaking changes management
 - Modular design principles
 - Performance optimization techniques
 
@@ -58,6 +61,8 @@ This repository is a weekly celebration of:
 - Data archiving and retention
 - Test data generation utilities
 - Data migration utilities
+- Version compatibility management
+- Breaking changes mitigation
 - Custom page enhancements
 - Business logic implementations
 
@@ -80,6 +85,7 @@ BCWeekendCodeHacks/
 │   ├── 📁 2025-09-27-OauthAutomationSetupP5/     # OAuth automation setup - Part 5 (PowerShell API Integration)
 │   ├── 📁 2025-11-02-DataArchiveCodeunit/        # Data Archive functionality for lifecycle management
 │   ├── 📁 2025-11-08-ExtensionsJson/             # VS Code extensions.json configuration
+│   ├── 📁 2025-11-29-PreprocessorDirectives/     # AL Preprocessor directives for version compatibility
 │   └── 📁 [upcoming-hacks]/                      # More weekly demos
 ├── 📁 docs/                     # Comprehensive guides & tutorials
 ├── 📁 assets/                   # Screenshots, diagrams, visuals
@@ -92,7 +98,22 @@ BCWeekendCodeHacks/
 
 Explore the latest and greatest AL hacks, updated every weekend (Saturday or Sunday)! Each demo is designed to teach a practical concept for Business Central developers.
 
-### 🆕 Latest: [VS Code Extensions.json Configuration](hacks/2025-11-08-ExtensionsJson/) **(November 8, 2025)**
+### 🆕 Latest: [AL Preprocessor Directives Demo](hacks/2025-11-29-PreprocessorDirectives/) **(November 29, 2025)**
+Comprehensive guide to using AL preprocessor directives for managing BC version compatibility and breaking changes, featuring:
+- ✅ #if CLEAN26 conditional compilation for BC26/BC27+ compatibility
+- ✅ No. Series migration bridge (NoSeriesManagement → "No. Series" codeunit)
+- ✅ Invoice Posting Buffer transition handling (obsolete → new table)
+- ✅ #pragma warning directives to suppress AL0432 warnings on obsolete objects
+- ✅ Real-world posting routine examples with version-specific event subscribers
+- ✅ Bridge pattern implementation for backward and forward compatibility
+- ✅ Zero runtime overhead with compile-time decisions
+- ✅ Single codebase strategy for multiple BC versions
+
+> **Tech Stack:** AL Language, Business Central 26.2+, Preprocessor Directives, Version Compatibility, VS Code
+> 
+> **Key Concepts:** Conditional compilation, Breaking changes management, Deprecation handling, #if CLEAN26, #pragma warning, NoSeriesManagement migration, Invoice Posting Buffer transition, Multi-version support, ISV best practices
+
+### Previous: [VS Code Extensions.json Configuration](hacks/2025-11-08-ExtensionsJson/) **(November 8, 2025)**
 Curated VS Code extensions.json file for AL developers - boost your productivity with recommended extensions, featuring:
 - ✅ Core AL development tools (AL Language, CRS AL Extension)
 - ✅ Navigation & organization extensions (AL Object Designer, AL Code Outline, AL Navigator)
@@ -336,9 +357,9 @@ Stay tuned for upcoming hacks:
 ## 📈 Project Statistics
 
 - **Started:** July 2025
-- **Total Hacks:** 14 (and growing every weekend!)
-- **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation, DevOps & CLI Tools, PowerShell Scripting, Data Lifecycle Management, Developer Productivity
-- **Target Audience:** Developers, Consultants, Solution Architects
+- **Total Hacks:** 15 (and growing every weekend!)
+- **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation, DevOps & CLI Tools, PowerShell Scripting, Data Lifecycle Management, Developer Productivity, Version Compatibility & Migration
+- **Target Audience:** Developers, Consultants, Solution Architects, ISVs
 
 ## Stay Connected
 

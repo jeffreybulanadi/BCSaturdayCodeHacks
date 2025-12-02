@@ -1,0 +1,34 @@
+{
+    "id": "30724d98-8db3-47fb-83b9-13d4d1d01a9b",
+    "name": "AL Preprocessor directives",
+    "publisher": "Jeffrey Bulanadi",
+    "version": "26.2.0.251129",
+    "brief": "Preprocessor directives are simple on/off switches at compile time.",
+    "description": "It allows you to give special notes to the compiler so it can set things up before looking at your real program code.",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "https://learnbeyondbc.com",
+    "url": "https://learnbeyondbc.com",
+    "logo": "",
+    "dependencies": [],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "26.0.0.0",
+    "idRanges": [
+        {
+            "from": 50100,
+            "to": 50110
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": false,
+        "includeSourceInSymbolFile": false
+    },
+    "runtime": "15.0",
+    "features": [
+        "NoImplicitWith",
+        "TranslationFile"
+    ],
+    "preprocessorSymbols": ["CLEAN26"]
+}

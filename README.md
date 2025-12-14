@@ -63,6 +63,8 @@ This repository is a weekly celebration of:
 - Data migration utilities
 - Version compatibility management
 - Breaking changes mitigation
+- Admin Centre app management
+- Global app update procedures
 - Custom page enhancements
 - Business logic implementations
 
@@ -86,6 +88,7 @@ BCWeekendCodeHacks/
 │   ├── 📁 2025-11-02-DataArchiveCodeunit/        # Data Archive functionality for lifecycle management
 │   ├── 📁 2025-11-08-ExtensionsJson/             # VS Code extensions.json configuration
 │   ├── 📁 2025-11-29-PreprocessorDirectives/     # AL Preprocessor directives for version compatibility
+│   ├── 📁 2025-12-06-UpdateGlobalAppBC/          # Updating global apps via BC Admin Centre
 │   └── 📁 [upcoming-hacks]/                      # More weekly demos
 ├── 📁 docs/                     # Comprehensive guides & tutorials
 ├── 📁 assets/                   # Screenshots, diagrams, visuals
@@ -98,7 +101,22 @@ BCWeekendCodeHacks/
 
 Explore the latest and greatest AL hacks, updated every weekend (Saturday or Sunday)! Each demo is designed to teach a practical concept for Business Central developers.
 
-### 🆕 Latest: [AL Preprocessor Directives Demo](hacks/2025-11-29-PreprocessorDirectives/) **(November 29, 2025)**
+### 🆕 Latest: [Update Global Apps in BC Admin Centre](hacks/2025-12-06-UpdateGlobalAppBC/) **(December 6, 2025)**
+Step-by-step visual guide for updating global Business Central apps through the Admin Centre, featuring:
+- ✅ Complete Admin Centre navigation workflow with screenshots
+- ✅ Environment selection and management best practices
+- ✅ Apps menu navigation and update discovery process
+- ✅ Selective app update procedures (choose specific apps to update)
+- ✅ Update confirmation and scheduling workflows
+- ✅ Visual guide with 7 detailed screenshots covering the entire process
+- ✅ Production-ready update strategies for BC SaaS environments
+- ✅ Best practices for maintaining app versions and dependencies
+
+> **Tech Stack:** Business Central Admin Centre, BC SaaS, Microsoft 365, App Management
+> 
+> **Key Concepts:** Admin Centre navigation, App lifecycle management, Global app updates, Update scheduling, Environment management, Dependency handling, Production deployment strategies
+
+### Previous: [AL Preprocessor Directives Demo](hacks/2025-11-29-PreprocessorDirectives/) **(November 29, 2025)**
 Comprehensive guide to using AL preprocessor directives for managing BC version compatibility and breaking changes, featuring:
 - ✅ #if CLEAN26 conditional compilation for BC26/BC27+ compatibility
 - ✅ No. Series migration bridge (NoSeriesManagement → "No. Series" codeunit)
@@ -357,7 +375,7 @@ Stay tuned for upcoming hacks:
 ## 📈 Project Statistics
 
 - **Started:** July 2025
-- **Total Hacks:** 15 (and growing every weekend!)
+- **Total Hacks:** 16 (and growing every weekend!)
 - **Focus Areas:** AL Development, Business Central Extensions, OAuth Integration, API Automation, DevOps & CLI Tools, PowerShell Scripting, Data Lifecycle Management, Developer Productivity, Version Compatibility & Migration
 - **Target Audience:** Developers, Consultants, Solution Architects, ISVs
 
